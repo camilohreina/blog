@@ -46,11 +46,11 @@ const ogUrl = new URL(
     </button>
   </div>
   <main id="main-content">
-    <h1 transition:name={slugifyStr(title)} class="post-title">{title}</h1>
-    <div class="flex w-full justify-between">
+    <div class="my-3 flex w-full justify-between">
       <span class="self-center opacity-80">{author}</span>
       <Datetime datetime={pubDatetime} size="lg" className="my-2" />
     </div>
+    <h1 transition:name={slugifyStr(title)} class="post-title">{title}</h1>
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>

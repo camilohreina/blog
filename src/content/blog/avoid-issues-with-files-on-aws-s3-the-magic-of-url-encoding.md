@@ -1,6 +1,6 @@
 ---
 author: Camilo Hernández
-pubDatetime: 2023-11-24T20:09:00Z
+pubDatetime: 2023-11-25T01:19:26.171Z
 title: "Avoid Issues with Files on AWS S3: The Magic of URL Encoding"
 postSlug: avoid-issues-with-files-on-aws-s3-the-magic-of-url-encoding
 featured: true
@@ -10,8 +10,7 @@ tags:
   - javascript
   - docs
 description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+  Learn the quick trick of URL encoding in JavaScript to ensure seamless file sharing on AWS S3. 
 ---
 
 Today, I want to share a little lesson I learned while navigating the waters of AWS S3. Picture this scenario: you upload a file with an exciting name full of special characters, eager to share it with the world. But, oh surprise, when trying to open the URL, nothing happens. Sound familiar?
@@ -24,7 +23,7 @@ In simple terms, it's a process that transforms special characters into a form t
 
 ## A Practical Example in JavaScript:
 
-Let's say you have a file named "My File&Important.txt." Before uploading it to S3, use JavaScript to encode the URL:
+Let's say you have a file named "#My File&Important.txt." Before uploading it to S3, use JavaScript to encode the URL:
 
 ```js
 
