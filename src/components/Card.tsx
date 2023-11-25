@@ -1,5 +1,5 @@
 import { slugifyStr } from "@utils/slugify";
-import Datetime from "./Datetime";
+import PostDate from "./PostDate";
 import type { CollectionEntry } from "astro:content";
 
 export interface Props {
@@ -17,19 +17,25 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
   };
 
   return (
-    <li className="my-6">
-      <a
-        href={href}
-        className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
-      >
-        {secHeading ? (
-          <h2 {...headerProps}>{title}</h2>
-        ) : (
-          <h3 {...headerProps}>{title}</h3>
-        )}
-      </a>
-      <Datetime datetime={pubDatetime} />
-      <p>{description}</p>
+    <li className="my-6 flex gap-6">
+      <div className="sm:w-20 md:w-32">
+        <PostDate datetime={pubDatetime} />
+
+      </div>
+      <div className="flex-1">
+        <a
+          href={href}
+          className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
+        >
+          {secHeading ? (
+            <h2 {...headerProps}>{title}</h2>
+          ) : (
+            <h3 {...headerProps}>{title}</h3>
+          )}
+        </a>
+        <p>{description}</p>
+      </div>
+
     </li>
   );
 }
