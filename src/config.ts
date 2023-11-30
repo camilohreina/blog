@@ -5,9 +5,9 @@ export const SITE: Site = {
   author: "Camilo Hernández",
   desc: "A minimal personal blog about web development and other stuff.",
   title: "Differnt.",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "blog-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 5,
+  postPerPage: 3,
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
