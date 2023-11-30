@@ -1,4 +1,4 @@
-[Articles, resources and issues about Web Development, Frontend, Javascript ☕️, React ⚛️, CSS y Performance Web.](https://xdiffernt.com/)
+[Articles, resources and issues about Web Development, Frontend, Javascript ☕️, React ⚛️, CSS and Web Performance.](https://xdiffernt.com/)
 
 **Follow me... 👇**
 
