@@ -14,7 +14,9 @@ description:
   Dive into the realm of real-time communication with Node.js as we guide you in crafting a robust streaming API. From setup to data narrative, unlock your application's potential for a dynamic and immersive user experience.
 ---
 
-![streaming-api.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/0d297caa-3885-4730-847b-901abc58fc36/1fee9e43-67cd-4cd8-8bb0-c7a6c63afd27/streaming-api.gif)
+![streaming-api](https://github.com/camilohreina/blog/assets/59514545/6f29bcc7-b4c8-4743-bccb-5212a02c7136)
+
+## Table of contents
 
 ### **Introduction**
 
