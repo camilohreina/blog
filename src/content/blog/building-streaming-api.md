@@ -1,6 +1,6 @@
 ---
 author: Camilo Hernández
-pubDatetime: 2023-12-03T17:56:26.171Z
+pubDatetime: 2023-12-03T19:56:26.171Z
 title: "Building a Streaming API in Node.js: Unveiling the Power of Real-Time Communication"
 postSlug: building-streaming-api-nodejs
 featured: true
@@ -18,15 +18,15 @@ description:
 
 ## Table of contents
 
-### **Introduction**
+## **Introduction**
 
 Embark on a journey into the dynamic world of real-time communication with Node.js. In this post, we'll dive into the process of creating a streaming API route, unlocking the potential for live updates and continuous data flow. While we illustrate the concept using random numbers, the real focus is on empowering your applications with the magic of streaming.
 
-### **Setting the Stage for Real-Time**
+## **Setting the Stage for Real-Time**
 
 In the opening act, we prepare the groundwork for our real-time adventure. Ensure you have Node.js and Express installed, as we're about to set up an environment that facilitates the creation of a streaming API route.
 
-### **Crafting the Streaming Endpoint**
+## **Crafting the Streaming Endpoint**
 
 Moving to the core of our story, we delve into crafting the streaming endpoint. Using Express.js, we establish a connection that enables continuous data transmission. Our goal is to showcase the essence of a streaming API, using random numbers as a vehicle to demonstrate the real-time capabilities.
 
@@ -58,19 +58,19 @@ app.get('/streaming-api', (req, res) => {
 
 ```
 
-### **Understanding the Streaming Concept**
+## **Understanding the Streaming Concept**
 
 In the third act, we take a closer look at the streaming concept. We explore why and how streaming APIs enhance user experiences, providing a seamless flow of data. While our example uses random numbers, the principles apply to a myriad of real-world scenarios.
 
-### **Testing and Integration**
+## **Testing and Integration**
 
 The fourth act guides you through testing and integrating the streaming API into your application. We'll demonstrate how to consume the stream, emphasizing the real-time aspect of the data flow. This step is crucial to ensure a smooth and responsive implementation.
 
-### **Conclusion and Future Considerations**
+## **Conclusion and Future Considerations**
 
 Our final act concludes the journey, highlighting the significance of streaming APIs and suggesting considerations for future enhancements. We touch upon scalability, security, and potential optimizations to make your streaming API robust and versatile.
 
-### **Conclusion**
+## **Conclusion**
 
 As you embark on this exploration of streaming APIs in Node.js, remember that the example of random numbers is just the tip of the iceberg. The real power lies in your ability to apply this knowledge to create dynamic, real-time communication in your applications.
 
