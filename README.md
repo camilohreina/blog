@@ -2,8 +2,8 @@
 
 **Follow me... 👇**
 
-- Twitter 🐦 : https://twitter.com/xdiffernt
-- Instagram 📸 : https://www.instagram.com/xdiffernt/
+- Twitter 🐦 : https://twitter.com/winkbits
+- Instagram 📸 : https://www.instagram.com/camilohreina/
 - Github 🐙: https://github.com/camilohreina
 - Twitch 🟣 : https://twitch.tv/xdiffernt
 
