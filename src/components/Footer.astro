@@ -2,8 +2,6 @@
 import Hr from "./Hr.astro";
 import Socials from "./Socials.astro";
 
-const currentYear = new Date().getFullYear();
-
 export interface Props {
   noMarginTop?: boolean;
 }
@@ -30,7 +28,9 @@ const { noMarginTop = false } = Astro.props;
         ></path>
       </svg>{" "}
        by
-      <a href="https://xdiffernt.com/" target="_blank"> Camilo Hernández</a>
+      <a href="https://xdiffernt.com/" target="_blank" rel="noopener noreferrer"
+        >Camilo Hernández</a
+      >
     </div>
   </div>
 </footer>

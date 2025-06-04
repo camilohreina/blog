@@ -28,7 +28,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/xdiffernt/",
+    href: "https://www.instagram.com/camilohreina/",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
@@ -46,7 +46,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/xdiffernt",
+    href: "https://twitter.com/winkbits",
     linkTitle: `${SITE.title} on Twitter`,
     active: true,
   },
